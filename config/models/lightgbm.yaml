@@ -1,0 +1,14 @@
+objective: "multiclass"
+metric: "multi_logloss"
+boosting_type: "gbdt"
+num_leaves: 31
+max_depth: -1
+learning_rate: 0.05
+feature_fraction: 0.9
+bagging_fraction: 0.8
+bagging_freq: 5
+verbose: -1
+n_jobs: -1
+random_state: 42
+num_boost_round: 1000
+early_stopping_rounds: 50

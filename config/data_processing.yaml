@@ -1,0 +1,13 @@
+data_cleaning:
+  missing_value_strategy: "median"
+  outlier_method: "iqr"
+  label_correction: true
+  iqr_factor: 1.5
+  zscore_threshold: 3
+  knn_neighbors: 5
+
+feature_engineering:
+  scaling: "standard"
+  feature_selection: "importance"
+  n_features_to_select: 16
+  correlation_threshold: 0.95
